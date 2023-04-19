@@ -1,0 +1,33 @@
+/* This is a CSS file for resetting all styles on HTML tags */
+
+/* All HTML tags */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+/* Remove browser's default styling for certain elements */
+button, input, select, textarea {
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Remove default list styling */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default link styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html, body {
+    font-family: Lato;
+}
