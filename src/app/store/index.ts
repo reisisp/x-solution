@@ -1,9 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import { merchantModel } from "entities/merchant";
+import { merchantModel, loginModel } from "entities/model";
 
 export const store = configureStore({
   reducer: {
-    merchant: merchantModel.reducer,
+    merchantState: merchantModel.reducer,
+    loginState: loginModel.reducer
   },
 });

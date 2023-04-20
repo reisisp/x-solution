@@ -2,10 +2,10 @@ import {
   createSlice,
 } from "@reduxjs/toolkit";
 
-export const initialState: {
+const initialState: {
   data: string;
 } = {
-  data: "asd",
+  data: "smth",
 };
 
 export const merchantModel = createSlice({
@@ -14,5 +14,3 @@ export const merchantModel = createSlice({
   reducers: {
   },
 });
-
-export const reducer = merchantModel.reducer;

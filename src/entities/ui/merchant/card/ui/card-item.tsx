@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Col } from 'antd';
 import { CustomText } from 'shared/ui';
-import { MerchantCardTypeKeys } from 'entities/ui';
+import { MerchantCardTypeKeys } from '..';
 import { SecureStatus } from './secure-status';
 
 type MerchantCardItemProps = {
