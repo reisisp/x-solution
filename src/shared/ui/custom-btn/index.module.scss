@@ -1,0 +1,12 @@
+.btn {
+  color: var(--color-white);
+  background-color: var(--color-black);
+  &:hover {
+    color: var(--color-white) !important;
+    background-color: var(--color-green);
+  }
+  &:disabled {
+    color: var(--color-white) !important;
+    background-color: var(--color-disabled);
+  }
+}

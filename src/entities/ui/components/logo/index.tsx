@@ -3,13 +3,18 @@ import { Image } from 'antd';
 import LogoImg from "./logo.png";
 import LogoImgCollapsed from "./logo-collapsed.png";
 
-export const Logo: FC = () => {
+type LogoProps = {
+  height: number,
+  width: number
+}
+
+export const Logo: FC<LogoProps> = ({ height, width }) => {
   return (
     <Image
       src={LogoImg}
       preview={false}
-      height={83}
-      width={120}
+      height={height}
+      width={width}
     />
   )
 }

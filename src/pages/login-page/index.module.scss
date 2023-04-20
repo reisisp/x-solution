@@ -1,0 +1,15 @@
+.page {
+  min-height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.page__logo {
+  margin-top: 130px;
+}
+
+.page__form {
+  margin-top: 42px;
+  max-width: 316px;
+  width: 100%;
+}

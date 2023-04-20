@@ -1,8 +1,9 @@
 import React, { FC } from 'react';
+import { LoginForm } from 'entities/ui';
 
 export const Login: FC = () => {
 
   return (
-    <h1>Login-widget</h1>
+    <LoginForm />
   )
 }
